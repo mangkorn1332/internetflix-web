@@ -1,0 +1,37 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.home {
+    background: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.97)), url(assets/movie_img/background-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    position: relative;
+}
+
+body {
+    background: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/movie_img/background-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    position: relative;
+}
+
+.btn {
+    background: #E50914;
+    color: white;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+}
